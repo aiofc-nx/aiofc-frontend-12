@@ -1,5 +1,5 @@
 {
-  "name": "@remix-gospel-stack/business",
+  "name": "@aiofc/business",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -17,12 +17,12 @@
     "typecheck": "tsc --project ./tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@remix-gospel-stack/database": "workspace:*",
+    "@aiofc/database": "workspace:*",
     "tiny-invariant": "^1.3.3"
   },
   "devDependencies": {
-    "@remix-gospel-stack/eslint-config": "workspace:*",
-    "@remix-gospel-stack/tsconfig": "workspace:*",
+    "@aiofc/eslint-config": "workspace:*",
+    "@aiofc/tsconfig": "workspace:*",
     "@types/node": "^22.7.0",
     "rimraf": "^6.0.1",
     "tsup": "^8.3.0",

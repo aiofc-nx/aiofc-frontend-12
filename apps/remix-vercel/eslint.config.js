@@ -1,4 +1,4 @@
-import remixConfig from "@remix-gospel-stack/eslint-config/remix";
+import remixConfig from "@aiofc/eslint-config/remix";
 
 /** @type {import('typescript-eslint').Config} */
 export default [

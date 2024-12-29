@@ -1,10 +1,10 @@
 {
-  "extends": "@remix-gospel-stack/tsconfig/node18.json",
+  "extends": "@aiofc/tsconfig/node18.json",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tsup.config.ts"],
   "compilerOptions": {
     "paths": {
-      "@remix-gospel-stack/database/*": ["../database/src/*"],
-      "@remix-gospel-stack/database": ["../database/src/index"],
+      "@aiofc/database/*": ["../database/src/*"],
+      "@aiofc/database": ["../database/src/index"],
     },
     "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
   },

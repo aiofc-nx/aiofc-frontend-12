@@ -32,31 +32,31 @@
       "~/*": [
         "./app/*"
       ],
-      "@remix-gospel-stack/ui/*": [
+      "@aiofc/ui/*": [
         "../../packages/ui/src/*"
       ],
-      "@remix-gospel-stack/ui": [
+      "@aiofc/ui": [
         "../../packages/ui/src/index"
       ],
-      "@remix-gospel-stack/business/*": [
+      "@aiofc/business/*": [
         "../../packages/business/src/*"
       ],
-      "@remix-gospel-stack/business": [
+      "@aiofc/business": [
         "../../packages/business/src/index"
       ],
-      "@remix-gospel-stack/database/*": [
+      "@aiofc/database/*": [
         "../../packages/database/src/*"
       ],
-      "@remix-gospel-stack/database": [
+      "@aiofc/database": [
         "../../packages/database/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild": [
+      "@aiofc/internal-nobuild": [
         "../../packages/internal-nobuild/src/index"
       ],
-      "@remix-gospel-stack/internal-nobuild/*": [
+      "@aiofc/internal-nobuild/*": [
         "../../packages/internal-nobuild/src/*"
       ],
-      "@remix-gospel-stack/tailwind-config": [
+      "@aiofc/tailwind-config": [
         "../../config/tailwind-config/src/index"
       ],
     },

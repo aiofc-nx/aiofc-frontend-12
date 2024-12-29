@@ -1,4 +1,4 @@
-import { prisma } from "@remix-gospel-stack/database";
+import { prisma } from "@aiofc/database";
 
 import { PrismaUserRepository } from "./repositories/user-repository.ts";
 

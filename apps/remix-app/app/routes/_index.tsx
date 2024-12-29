@@ -6,19 +6,19 @@ import {
   useRouteError,
 } from "@remix-run/react";
 
-import { lookUpSalesPersonForZipcode } from "@remix-gospel-stack/internal-nobuild/client";
-import { getSalesPersonDirectory } from "@remix-gospel-stack/internal-nobuild/queries.server";
-import { Button } from "@remix-gospel-stack/ui/components/button";
+import { lookUpSalesPersonForZipcode } from "@aiofc/internal-nobuild/client";
+import { getSalesPersonDirectory } from "@aiofc/internal-nobuild/queries.server";
+import { Button } from "@aiofc/ui/components/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@remix-gospel-stack/ui/components/card";
-import { Checkbox } from "@remix-gospel-stack/ui/components/checkbox";
+} from "@aiofc/ui/components/card";
+import { Checkbox } from "@aiofc/ui/components/checkbox";
 
-// import { Checkbox } from "@remix-gospel-stack/ui/checkbox";
+// import { Checkbox } from "@aiofc/ui/checkbox";
 
 import Service, { helloWorld } from "~/services.server.ts";
 

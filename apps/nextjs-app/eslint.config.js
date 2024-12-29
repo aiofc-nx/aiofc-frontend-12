@@ -1,5 +1,5 @@
-import baseConfig from "@remix-gospel-stack/eslint-config/base.js";
-import nextConfig from "@remix-gospel-stack/eslint-config/next.js";
+import baseConfig from "@aiofc/eslint-config/base.js";
+import nextConfig from "@aiofc/eslint-config/next.js";
 
 /** @type {import('typescript-eslint').Config} */
 export default [

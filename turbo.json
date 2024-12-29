@@ -25,7 +25,7 @@
         ".cache"
       ]
     },
-    "@remix-gospel-stack/remix-app#start": {
+    "@aiofc/remix-app#start": {
       "dependsOn": ["^build"],
       "outputs": ["public/build/**"]
     },

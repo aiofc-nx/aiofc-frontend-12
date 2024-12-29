@@ -6,7 +6,7 @@ import {
 import { RemixServer } from "@remix-run/react";
 import { renderToPipeableStream } from "react-dom/server";
 
-export const streamTimeout = 5000;
+const ABORT_DELAY = 5000;
 
 export default async function handleRequest(
   request: Request,
@@ -35,7 +35,7 @@ export default async function handleRequest(
           pipe(body);
         },
         onShellError: (err) => {
-          reject(err as Error);
+          reject(err);
         },
         onError: (error) => {
           didError = true;
@@ -45,6 +45,6 @@ export default async function handleRequest(
       },
     );
 
-    setTimeout(abort, streamTimeout + 5000);
+    setTimeout(abort, ABORT_DELAY);
   });
 }
